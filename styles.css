@@ -1,0 +1,70 @@
+/*Top navbar*/
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f4f1ea;
+    overflow: hidden;
+}
+
+.logo-img {
+    transform: scale(2.5);
+}
+
+.top-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-link-img {
+    width: 40px;
+    padding: 10px 6px;
+    vertical-align: middle;
+    cursor: pointer;
+    filter: invert(14%) sepia(8%) saturate(3928%) hue-rotate(343deg) brightness(96%) contrast(79%);
+}
+
+.top-link {
+    padding: 10px;
+    vertical-align: middle;
+    color: #483323;
+    cursor: pointer;
+}
+
+.top-link:hover {
+    background-color: #483323;
+    color: #fff
+}
+
+/*menu*/
+.menu-container, .main-container {
+    background-color: #f9f7f4;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li {
+    padding: 10px 6px;
+    border-bottom: 1px solid #483323;
+}
+
+a {
+    text-decoration: none;
+    color: #483323;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book-list img {
+    width: 80px;
+    height: 121px;
+    margin: 5px
+}
